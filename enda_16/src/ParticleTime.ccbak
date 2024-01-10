@@ -1,0 +1,12 @@
+#include "ParticleTime.hh"
+#include <iostream>
+using namespace std;
+
+void particle::SetTime(int p_t)
+{
+     partTime = p_t;
+}
+int particle::GetTime(void)
+{
+     return partTime;
+}
